@@ -41,6 +41,40 @@ public class CodingBatProblems
         return flag;
     }
 
+    public static int scoresAverage(int[] scores)
+    {
+        int average = 0;
+        int end = scores.length/2;
+
+        if(average(scores, 0,end) > average(scores, end + 1, scores.length))
+            average = average(scores,0,end);
+        else
+            average = average(scores,end + 1, scores.length);
+
+        return average;
+    }
+
+    public static int average(int[] scores, int start, int end)
+    {
+        int avg = 0;
+        int length = end - start;
+
+        if(length < 1)
+            length = 1;
+
+        System.out.println("start: " + start + "\nend: " + end);
+
+        for(int i = start; i <= end; i++)
+        {
+            avg += scores[i];
+            System.out.println("\tavg: " + scores[i]);
+        }
+
+        avg = avg/length;
+
+        return avg;
+    }
+
     public static void main(String[] args)
     {
         /// scoresIncreasing ///
@@ -55,10 +89,17 @@ public class CodingBatProblems
         /// scores100 ///
         //int x[] = {1,100,100};
         //int x[] = {1,100,99,100};
-        int x[] = {100,1,100,100};
+        //int x[] = {100,1,100,100};
 
-        System.out.println("scores 100 results: " + scores100(x));
+        //System.out.println("scores 100 results: " + scores100(x));
 
+        /// scoresAverage ///
+        //int x[] = {2,2,4,4};
+        //int x[] = {4,4,4,2,2,2};
+        //int x[] = {3,4,5,1,2,3};
+        int x[] = {5,6};
+
+        System.out.println("scoresAverage: " + scoresAverage(x));
 
     }
 
