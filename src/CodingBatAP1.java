@@ -99,10 +99,51 @@ public class CodingBatAP1
 
         System.out.println("hasOne: " + hasOne.hasOne(hasOneNum));
 
-        /// divesSelf ///
-        System.out.println("\n/// divesSelf ///");
+        /// dividesSelf ///
+        System.out.println("\n/// dividesSelf ///");
 
+        //int dividesSelfNum = 128;
+        //int dividesSelfNum = 12;
+        //int dividesSelfNum = 120;
+        int dividesSelfNum = 32;
 
+        System.out.println("dividesSelf: " + dividesSelf.dividesSelf(dividesSelfNum));
+
+        /// copyEvens ///
+        System.out.println("\n/// copyEvens ///");
+
+        //int copyEvenInt[] = {3,2,4,5,8};
+        int copyEvenInt[] = {6,1,2,4,5,8};
+        //int copyEvenNum = 2;
+        int copyEvenNum = 3;
+
+        int[] copiedEven = copyEvens.copyEvens(copyEvenInt,copyEvenNum);
+
+        for(int ce : copiedEven)
+            System.out.println("copyEvens: " + ce);
+
+        /// copyEndy ///
+        System.out.println("\n/// copyEndy ///");
+
+        int copyEndyInt[] = {9,11,90,22,6};
+        //int copyEndyInt[] = {12,1,1,13,0,20};
+        //int copyEndyNum = 2;
+        int copyEndyNum = 3;
+
+        int[] copiedEndy = copyEndy.copyEndy(copyEndyInt,copyEndyNum);
+
+        for(int ce : copiedEndy)
+            System.out.println("copyEndy: " + ce);
+
+        /// matchUp ///
+        System.out.println("\n/// matchUp ///");
+
+        String[] matchUpStringOne = {"aa","bb","cc"};
+        //String[] matchUpStringTwo = {"aaa", "xx", "bb"};
+        //String[] matchUpStringTwo = {"aaa", "b", "bb"};
+        String[] matchUpStringTwo = {"", "", "ccc"};
+
+        System.out.println("matchUp: " + matchUp.matchUp(matchUpStringOne,matchUpStringTwo));
     }
 
 }

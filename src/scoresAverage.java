@@ -18,7 +18,7 @@ public class scoresAverage {
         return average;
     }
 
-    public static int average(int[] scores, int start, int end)
+    private static int average(int[] scores, int start, int end)
     {
         int avg = 0;
         int length = end - start;

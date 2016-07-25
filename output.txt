@@ -43,3 +43,33 @@ wordsWithoutList: ccc
 /// hasOne ///
 num: 10
 hasOne: true
+
+/// dividesSelf ///
+num: 32
+values: [x = 32 ], 32 % 10 = 2
+values: [x = 3 ], 32 % 10 = 3
+dividesSelf: false
+
+/// copyEvens ///
+
+6 1 2 4 5 8 
+num: 3
+copyEvens: 6
+copyEvens: 2
+copyEvens: 4
+
+/// copyEndy ///
+
+9 11 90 22 6 
+num: 3
+copyEndy: 9
+copyEndy: 90
+copyEndy: 6
+
+/// matchUp ///
+
+aa bb cc 
+
+  ccc 
+a[i]: cc , b[i]: ccc
+matchUp: 1
