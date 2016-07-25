@@ -43,6 +43,17 @@ public class CodingBatAP1
         return flag;
     }
 
+    public static boolean scoresClump(int[] scores)
+    {
+        for(int i = 0; i < scores.length - 3; i++)
+        {
+            if(scores[i + 2] - scores[i] <= 2)
+                return true;
+        }
+
+        return false;
+    }
+
     public static int scoresAverage(int[] scores)
     {
         int average = 0;
@@ -146,6 +157,14 @@ public class CodingBatAP1
         System.out.println("scores 100 results: " + scores100(x));
         */
 
+        /// scoresClump ///
+
+        //int x[] = {3,4,5};
+        //int x[] = {3,4,6};
+        int x[] = {1,3,5,5};
+
+        System.out.println("scoresClump: " + scoresClump(x));
+
         /// scoresAverage ///
         /*
         //int x[] = {2,2,4,4};
@@ -180,7 +199,7 @@ public class CodingBatAP1
         */
 
         /// wordsWithoutList ///
-
+        /*
         String x[] = {"a","bb","b","ccc"};
         int n = 1;
         //int n = 3;
@@ -191,7 +210,7 @@ public class CodingBatAP1
 
         for(String z : y)
             System.out.println("wordsWithoutList: " + z);
-
+        */
 
         /// hasOne ///
 
