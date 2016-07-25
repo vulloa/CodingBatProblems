@@ -46,10 +46,10 @@ public class CodingBatProblems
         int average = 0;
         int end = scores.length/2;
 
-        if(average(scores, 0,end) > average(scores, end + 1, scores.length))
-            average = average(scores,0,end);
+        if(average(scores, 0,end) > average(scores, end, scores.length))
+            average = average(scores, 0, end);
         else
-            average = average(scores,end + 1, scores.length);
+            average = average(scores, end, scores.length);
 
         return average;
     }
@@ -62,17 +62,52 @@ public class CodingBatProblems
         if(length < 1)
             length = 1;
 
-        System.out.println("start: " + start + "\nend: " + end);
+        //System.out.println("start: " + start + "\nend: " + end);
 
-        for(int i = start; i <= end; i++)
+        for(int i = start; i < end; i++)
         {
             avg += scores[i];
-            System.out.println("\tavg: " + scores[i]);
+            //System.out.println("\tavg: " + scores[i]);
         }
 
         avg = avg/length;
 
         return avg;
+    }
+
+    public static int wordsCount(String[] words, int len)
+    {
+        int count = 0;
+
+        for(int i = 0; i < words.length; i++) {
+            if(words[i].length() == len) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+    public static String[] wordsFront(String[] words, int n)
+    {
+        String newWordsFront[] = new String[n];
+
+        for(int i = 0; i < n; i++) {
+            newWordsFront[i] = words[i];
+        }
+
+        return newWordsFront;
+    }
+
+    public static String[] wordsFront2(String[] words, int n)
+    {
+        String newWordsFront[] = new String[n];
+
+        for(int i = 0; i < n; i++) {
+            newWordsFront[i] = words[i];
+        }
+
+        return newWordsFront;
     }
 
     public static void main(String[] args)
@@ -97,9 +132,28 @@ public class CodingBatProblems
         //int x[] = {2,2,4,4};
         //int x[] = {4,4,4,2,2,2};
         //int x[] = {3,4,5,1,2,3};
-        int x[] = {5,6};
+        //int x[] = {5,6};
 
-        System.out.println("scoresAverage: " + scoresAverage(x));
+        //System.out.println("scoresAverage: " + scoresAverage(x));
+
+        /// wordsCount ///
+        //String x[] = {"a","bb","b","ccc"};
+        //int n = 1;
+        //int n = 3;
+        //int n = 4;
+
+        //System.out.println("wordsCount: " + wordsCount(x,n));
+
+        /// wordsFront ///
+        String x[] = {"a","b","c","d"};
+        //int n = 1;
+        //int n = 2;
+        int n = 3;
+
+        String y[] = wordsFront2(x,n);
+
+        for(String s : y)
+            System.out.println("wordsFront: " + s);
 
     }
 
