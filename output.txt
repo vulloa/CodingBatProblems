@@ -69,10 +69,22 @@ a a b b
 scoreUp: 11
 
 /// wordsWithout ///
+a b c a 
+String: a
+wordsWithout: b
+wordsWithout: c
 
 /// scoresSpecial ///
+12 11 4 
+2 20 31 
+scoresSpecial: 20
 
 /// sumHeights ///
+5 3 6 7 2 
+num: 0
+num: 1
+	2
+sumHeights: 2
 
 /// sumHeights2 ///
 

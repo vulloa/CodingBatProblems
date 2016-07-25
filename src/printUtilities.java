@@ -24,4 +24,9 @@ public class printUtilities {
         System.out.println("num: " + x);
     }
 
+    public static void printString(String x)
+    {
+        System.out.println("String: " + x);
+    }
+
 }

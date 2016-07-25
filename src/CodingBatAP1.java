@@ -158,14 +158,36 @@ public class CodingBatAP1
         /// wordsWithout ///
         System.out.println("\n/// wordsWithout ///");
 
+        String[] wordsWithoutString = {"a", "b", "c", "a"};
+        String wordsWithouts = "a";
+        //String wordsWithouts = "b";
+        //String wordsWithouts = "c";
+
+        String[] newWordsWithout = wordsWithout.wordsWithout(wordsWithoutString,wordsWithouts);
+
+        for(String ww : newWordsWithout)
+            System.out.println("wordsWithout: " + ww);
 
         /// scoresSpecial ///
         System.out.println("\n/// scoresSpecial ///");
 
+        //int[] scoresSpecialA = {12,10,4};
+        //int[] scoresSpecialB = {2,20,30};
+        //int[] scoresSpecialA = {20,10,4};
+        //int[] scoresSpecialB = {2,20,10};
+        int[] scoresSpecialA = {12,11,4};
+        int[] scoresSpecialB = {2,20,31};
+
+        System.out.println("scoresSpecial: " + scoresSpecial.scoresSpecial(scoresSpecialA,scoresSpecialB));
 
         /// sumHeights ///
         System.out.println("\n/// sumHeights ///");
 
+        int[] sumHeightsInt = {5,3,6,7,2};
+        int sumHeightsStart = 0;
+        int sumHeightsEnd = 1;
+
+        System.out.println("sumHeights: " + sumHeights.sumHeights(sumHeightsInt,sumHeightsStart,sumHeightsEnd));
 
         /// sumHeights2 ///
         System.out.println("\n/// sumHeights2 ///");
