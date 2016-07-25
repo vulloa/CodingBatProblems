@@ -1,1 +1,1 @@
-scoresClump: false
+hasOne: false

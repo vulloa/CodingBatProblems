@@ -45,9 +45,9 @@ public class CodingBatAP1
 
     public static boolean scoresClump(int[] scores)
     {
-        for(int i = 0; i < scores.length - 3; i++)
+        for(int i = 0; i <= scores.length - 3; i++)
         {
-            if(scores[i + 2] - scores[i] <= 2)
+            if((scores[i + 2] - scores[i]) <= 2)
                 return true;
         }
 
@@ -136,6 +136,19 @@ public class CodingBatAP1
         return newList;
     }
 
+    public static boolean hasOne(int n)
+    {
+        while(n != 0)
+        {
+            if(n % 10 == 1)
+                return true;
+
+            n /= 10;
+        }
+
+        return false;
+    }
+
     public static void main(String[] args)
     {
         /// scoresIncreasing ///
@@ -158,12 +171,13 @@ public class CodingBatAP1
         */
 
         /// scoresClump ///
-
+        /*
         //int x[] = {3,4,5};
         //int x[] = {3,4,6};
         int x[] = {1,3,5,5};
 
         System.out.println("scoresClump: " + scoresClump(x));
+        */
 
         /// scoresAverage ///
         /*
@@ -214,7 +228,11 @@ public class CodingBatAP1
 
         /// hasOne ///
 
+        //int n = 10;
+        int n = 22;
+        //int n = 220;
 
+        System.out.println("hasOne: " + hasOne(n));
 
     }
 
