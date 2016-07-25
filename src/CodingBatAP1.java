@@ -1,7 +1,9 @@
+import java.util.*;
+
 /**
- * Created by ulloav on 7/20/2016.
+ * Created by ulloav on 7/25/2016.
  */
-public class CodingBatProblems
+public class CodingBatAP1
 {
 
     public static boolean scoresIncreasing(int scores[])
@@ -110,41 +112,62 @@ public class CodingBatProblems
         return newWordsFront;
     }
 
+    public static List wordsWithoutList(String[] words, int len)
+    {
+        List<String> newList = new ArrayList<String>();
+
+        for(int i = 0; i < words.length; i++)
+        {
+            if(words[i].length() != len)
+                newList.add(words[i]);
+        }
+
+        return newList;
+    }
+
     public static void main(String[] args)
     {
         /// scoresIncreasing ///
-
+        /*
         //int x[] = {1,3,4};
         //int x[] = {1,3,2};
         //int x[] = {1,1,4};
-        //int x[] = {1,1,2,4,3,7};
+        int x[] = {1,1,2,4,3,7};
 
-        //System.out.println("scoresIncreasing results: " + scoresIncreasing(x));
+        System.out.println("scoresIncreasing results: " + scoresIncreasing(x));
+        */
 
         /// scores100 ///
+        /*
         //int x[] = {1,100,100};
         //int x[] = {1,100,99,100};
-        //int x[] = {100,1,100,100};
+        int x[] = {100,1,100,100};
 
-        //System.out.println("scores 100 results: " + scores100(x));
+        System.out.println("scores 100 results: " + scores100(x));
+        */
 
         /// scoresAverage ///
+        /*
         //int x[] = {2,2,4,4};
-        //int x[] = {4,4,4,2,2,2};
+        int x[] = {4,4,4,2,2,2};
         //int x[] = {3,4,5,1,2,3};
         //int x[] = {5,6};
 
-        //System.out.println("scoresAverage: " + scoresAverage(x));
+        System.out.println("scoresAverage: " + scoresAverage(x));
+        */
 
         /// wordsCount ///
-        //String x[] = {"a","bb","b","ccc"};
+        /*
+        String x[] = {"a","bb","b","ccc"};
         //int n = 1;
         //int n = 3;
-        //int n = 4;
+        int n = 4;
 
-        //System.out.println("wordsCount: " + wordsCount(x,n));
+        System.out.println("wordsCount: " + wordsCount(x,n));
+        */
 
         /// wordsFront ///
+        /*
         String x[] = {"a","b","c","d"};
         //int n = 1;
         //int n = 2;
@@ -154,6 +177,25 @@ public class CodingBatProblems
 
         for(String s : y)
             System.out.println("wordsFront: " + s);
+        */
+
+        /// wordsWithoutList ///
+
+        String x[] = {"a","bb","b","ccc"};
+        int n = 1;
+        //int n = 3;
+        //int n = 4;
+
+        List<String> y = new ArrayList<String>();
+        y.addAll(wordsWithoutList(x,n));
+
+        for(String z : y)
+            System.out.println("wordsWithoutList: " + z);
+
+
+        /// hasOne ///
+
+
 
     }
 
