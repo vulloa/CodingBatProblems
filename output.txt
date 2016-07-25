@@ -1,1 +1,45 @@
-hasOne: false
+
+/// scoresIncreasing ///
+
+1 1 2 4 3 7 
+scoresIncreasing : false
+
+/// scores100 ///
+
+100 1 100 100 
+scores 100 : true
+
+/// scoresClump ///
+
+1 3 5 5 
+scoresClump: true
+
+/// scoresAverage ///
+
+4 4 4 2 2 2 
+scoresAverage: 4
+
+/// wordsCount ///
+
+a bb b ccc 
+length: 1
+wordsCount: 2
+
+/// wordsFront ///
+
+a b c d 
+length: 3
+wordsFront: a
+wordsFront: b
+wordsFront: c
+
+/// wordsWithoutList ///
+
+a bb b ccc 
+length: 1
+wordsWithoutList: bb
+wordsWithoutList: ccc
+
+/// hasOne ///
+num: 10
+hasOne: true
