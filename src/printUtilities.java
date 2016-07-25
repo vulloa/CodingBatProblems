@@ -5,8 +5,6 @@ public class printUtilities {
 
     public static void printIntArray(int ints[])
     {
-        System.out.println();
-
         for(int a : ints)
             System.out.print(a + " ");
 
@@ -15,8 +13,6 @@ public class printUtilities {
 
     public static void printStringArray(String strings[])
     {
-        System.out.println();
-
         for(String a : strings)
             System.out.print(a + " ");
 

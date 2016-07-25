@@ -144,6 +144,49 @@ public class CodingBatAP1
         String[] matchUpStringTwo = {"", "", "ccc"};
 
         System.out.println("matchUp: " + matchUp.matchUp(matchUpStringOne,matchUpStringTwo));
+
+        /// scoreUp ///
+        System.out.println("\n/// scoreUp ///");
+
+        String[] scoreUpAnswers = {"a", "a", "b", "b"};
+        //String[] scoreUpKeys = {"a", "c", "b", "c"};
+        String[] scoreUpKeys = {"a", "a", "b", "c"};
+        //String[] scoreUpKeys = {"a", "a", "b", "b"};
+
+        System.out.println("scoreUp: " + scoreUp.scoreUp(scoreUpAnswers,scoreUpKeys));
+
+        /// wordsWithout ///
+        System.out.println("\n/// wordsWithout ///");
+
+
+        /// scoresSpecial ///
+        System.out.println("\n/// scoresSpecial ///");
+
+
+        /// sumHeights ///
+        System.out.println("\n/// sumHeights ///");
+
+
+        /// sumHeights2 ///
+        System.out.println("\n/// sumHeights2 ///");
+
+
+        /// bigHeights ///
+        System.out.println("\n/// bigHeights ///");
+
+
+        /// userCompare ///
+        System.out.println("\n/// userCompare ///");
+
+
+        /// mergeTwo ///
+        System.out.println("\n/// mergeTwo ///");
+
+
+        /// commonTwo ///
+        System.out.println("\n/// commonTwo ///");
+
+
     }
 
 }
