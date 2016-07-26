@@ -10,6 +10,9 @@ public class CodingBatAP1
 
     public CodingBatAP1()
     {
+        System.out.println("CodingBat A-1");
+        System.out.println("Complete 16 out of 21 Exercises.\n");
+
         /// AP_1.scoresIncreasing ///
         System.out.println("\n/// AP_1.scoresIncreasing ///");
 
