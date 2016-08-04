@@ -17,7 +17,7 @@ public class CodingBatProblems {
         System.out.print("\n\n");
 
         CodingBatString2 answers_two = new CodingBatString2();
-
+/*
         System.out.print("\n\n");
 
         CodingBatString3 answers_three = new CodingBatString3();
@@ -31,6 +31,6 @@ public class CodingBatProblems {
         CodingBatRecursion2 answers_five = new CodingBatRecursion2();
 
         System.out.print("\n\n");
-
+*/
     }
 }

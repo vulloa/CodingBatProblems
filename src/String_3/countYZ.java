@@ -19,8 +19,8 @@ public class countYZ {
             if(((lowercaseString.charAt(i)) == 'y' || lowercaseString.charAt(i) == 'z') && !Character.isLetter(lowercaseString.charAt(i + 1)))
                 count++;
 
-            System.out.print("i: " + i + " ");
-            printUtility.printChar(lowercaseString.charAt(i));
+            //System.out.print("i: " + i + " ");
+            //printUtility.printChar(lowercaseString.charAt(i));
         }
 
         if(lowercaseString.charAt(lowercaseString.length() - 1) == 'y' ||lowercaseString.charAt(lowercaseString.length() - 1) == 'z')
