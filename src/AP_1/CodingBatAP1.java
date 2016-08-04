@@ -13,19 +13,19 @@ public class CodingBatAP1
         System.out.println("CodingBat A-1");
         System.out.println("Complete 16 out of 21 Exercises.\n");
 
-        /// AP_1.scoresIncreasing ///
-        System.out.println("\n/// AP_1.scoresIncreasing ///");
+        /// scoresIncreasing ///
+        System.out.println("\n/// scoresIncreasing ///");
 
         //int scoresIncreasingInt[] = {1,3,4};
         //int scoresIncreasingInt[] = {1,3,2};
         //int scoresIncreasingInt[] = {1,1,4};
         int scoresIncreasingInt[] = {1,1,2,4,3,7};
 
-        System.out.println("AP_1.scoresIncreasing : " + scoresIncreasing.scoresIncreasing(scoresIncreasingInt));
+        System.out.println("scoresIncreasing : " + scoresIncreasing.scoresIncreasing(scoresIncreasingInt));
 
 
-        /// AP_1.scores100 ///
-        System.out.println("\n/// AP_1.scores100 ///");
+        /// scores100 ///
+        System.out.println("\n/// scores100 ///");
 
         //int scores100Int[] = {1,100,100};
         //int scores100Int[] = {1,100,99,100};
@@ -34,40 +34,40 @@ public class CodingBatAP1
         System.out.println("scores 100 : " + scores100.scores100(scores100Int));
 
 
-        /// AP_1.scoresClump ///
-        System.out.println("\n/// AP_1.scoresClump ///");
+        /// scoresClump ///
+        System.out.println("\n/// scoresClump ///");
 
         //int scoresClumpInt[] = {3,4,5};
         //int scoresClumpInt[] = {3,4,6};
         int scoresClumpInt[] = {1,3,5,5};
 
-        System.out.println("AP_1.scoresClump: " + scoresClump.scoresClump(scoresClumpInt));
+        System.out.println("scoresClump: " + scoresClump.scoresClump(scoresClumpInt));
 
 
-        /// AP_1.scoresAverage ///
-        System.out.println("\n/// AP_1.scoresAverage ///");
+        /// scoresAverage ///
+        System.out.println("\n/// scoresAverage ///");
 
         //int scoresAverageInt[] = {2,2,4,4};
         int scoresAverageInt[] = {4,4,4,2,2,2};
         //int scoresAverageInt[] = {3,4,5,1,2,3};
         //int scoresAverageInt[] = {5,6};
 
-        System.out.println("AP_1.scoresAverage: " + scoresAverage.scoresAverage(scoresAverageInt));
+        System.out.println("scoresAverage: " + scoresAverage.scoresAverage(scoresAverageInt));
 
 
-        /// AP_1.wordsCount ///
-        System.out.println("\n/// AP_1.wordsCount ///");
+        /// wordsCount ///
+        System.out.println("\n/// wordsCount ///");
 
         String wordsCountStrings[] = {"a","bb","b","ccc"};
         int wordsCountLength = 1;
         //int wordsCountLength = 3;
         //int wordsCountLength = 4;
 
-        System.out.println("AP_1.wordsCount: " + wordsCount.wordsCount(wordsCountStrings,wordsCountLength));
+        System.out.println("wordsCount: " + wordsCount.wordsCount(wordsCountStrings,wordsCountLength));
 
 
-        /// AP_1.wordsFront ///
-        System.out.println("\n/// AP_1.wordsFront ///");
+        /// wordsFront ///
+        System.out.println("\n/// wordsFront ///");
 
         String wordsFrontString [] = {"a","b","c","d"};
         //int wordsFrontn = 1;
@@ -77,11 +77,11 @@ public class CodingBatAP1
         String y[] = wordsFront.wordsFront(wordsFrontString,wordsFrontn);
 
         for(String s : y)
-            System.out.println("AP_1.wordsFront: " + s);
+            System.out.println("wordsFront: " + s);
 
 
-        /// AP_1.wordsWithoutList ///
-        System.out.println("\n/// AP_1.wordsWithoutList ///");
+        /// wordsWithoutList ///
+        System.out.println("\n/// wordsWithoutList ///");
 
         String wordsWithoutListString[] = {"a","bb","b","ccc"};
         int wordsWithoutListn = 1;
@@ -92,30 +92,30 @@ public class CodingBatAP1
         wordsWithoutListNew.addAll(wordsWithoutList.wordsWithoutList(wordsWithoutListString,wordsWithoutListn));
 
         for(String z : wordsWithoutListNew)
-            System.out.println("AP_1.wordsWithoutList: " + z);
+            System.out.println("wordsWithoutList: " + z);
 
 
-        /// AP_1.hasOne ///
-        System.out.println("\n/// AP_1.hasOne ///");
+        /// hasOne ///
+        System.out.println("\n/// hasOne ///");
 
         int hasOneNum = 10;
         //int hasOneNum = 22;
         //int hasOneNum = 220;
 
-        System.out.println("AP_1.hasOne: " + hasOne.hasOne(hasOneNum));
+        System.out.println("hasOne: " + hasOne.hasOne(hasOneNum));
 
-        /// AP_1.dividesSelf ///
-        System.out.println("\n/// AP_1.dividesSelf ///");
+        /// dividesSelf ///
+        System.out.println("\n/// dividesSelf ///");
 
         //int dividesSelfNum = 128;
         //int dividesSelfNum = 12;
         //int dividesSelfNum = 120;
         int dividesSelfNum = 32;
 
-        System.out.println("AP_1.dividesSelf: " + dividesSelf.dividesSelf(dividesSelfNum));
+        System.out.println("dividesSelf: " + dividesSelf.dividesSelf(dividesSelfNum));
 
-        /// AP_1.copyEvens ///
-        System.out.println("\n/// AP_1.copyEvens ///");
+        /// copyEvens ///
+        System.out.println("\n/// copyEvens ///");
 
         //int copyEvenInt[] = {3,2,4,5,8};
         int copyEvenInt[] = {6,1,2,4,5,8};
@@ -125,10 +125,10 @@ public class CodingBatAP1
         int[] copiedEven = copyEvens.copyEvens(copyEvenInt,copyEvenNum);
 
         for(int ce : copiedEven)
-            System.out.println("AP_1.copyEvens: " + ce);
+            System.out.println("copyEvens: " + ce);
 
-        /// AP_1.copyEndy ///
-        System.out.println("\n/// AP_1.copyEndy ///");
+        /// copyEndy ///
+        System.out.println("\n/// copyEndy ///");
 
         int copyEndyInt[] = {9,11,90,22,6};
         //int copyEndyInt[] = {12,1,1,13,0,20};
@@ -138,30 +138,30 @@ public class CodingBatAP1
         int[] copiedEndy = copyEndy.copyEndy(copyEndyInt,copyEndyNum);
 
         for(int ce : copiedEndy)
-            System.out.println("AP_1.copyEndy: " + ce);
+            System.out.println("copyEndy: " + ce);
 
-        /// AP_1.matchUp ///
-        System.out.println("\n/// AP_1.matchUp ///");
+        /// matchUp ///
+        System.out.println("\n/// matchUp ///");
 
         String[] matchUpStringOne = {"aa","bb","cc"};
         //String[] matchUpStringTwo = {"aaa", "xx", "bb"};
         //String[] matchUpStringTwo = {"aaa", "b", "bb"};
         String[] matchUpStringTwo = {"", "", "ccc"};
 
-        System.out.println("AP_1.matchUp: " + matchUp.matchUp(matchUpStringOne,matchUpStringTwo));
+        System.out.println("matchUp: " + matchUp.matchUp(matchUpStringOne,matchUpStringTwo));
 
-        /// AP_1.scoreUp ///
-        System.out.println("\n/// AP_1.scoreUp ///");
+        /// scoreUp ///
+        System.out.println("\n/// scoreUp ///");
 
         String[] scoreUpAnswers = {"a", "a", "b", "b"};
         //String[] scoreUpKeys = {"a", "c", "b", "c"};
         String[] scoreUpKeys = {"a", "a", "b", "c"};
         //String[] scoreUpKeys = {"a", "a", "b", "b"};
 
-        System.out.println("AP_1.scoreUp: " + scoreUp.scoreUp(scoreUpAnswers,scoreUpKeys));
+        System.out.println("scoreUp: " + scoreUp.scoreUp(scoreUpAnswers,scoreUpKeys));
 
-        /// AP_1.wordsWithout ///
-        System.out.println("\n/// AP_1.wordsWithout ///");
+        /// wordsWithout ///
+        System.out.println("\n/// wordsWithout ///");
 
         String[] wordsWithoutString = {"a", "b", "c", "a"};
         String wordsWithouts = "a";
@@ -171,10 +171,10 @@ public class CodingBatAP1
         String[] newWordsWithout = wordsWithout.wordsWithout(wordsWithoutString,wordsWithouts);
 
         for(String ww : newWordsWithout)
-            System.out.println("AP_1.wordsWithout: " + ww);
+            System.out.println("wordsWithout: " + ww);
 
-        /// AP_1.scoresSpecial ///
-        System.out.println("\n/// AP_1.scoresSpecial ///");
+        /// scoresSpecial ///
+        System.out.println("\n/// scoresSpecial ///");
 
         //int[] scoresSpecialA = {12,10,4};
         //int[] scoresSpecialB = {2,20,30};
@@ -183,16 +183,16 @@ public class CodingBatAP1
         int[] scoresSpecialA = {12,11,4};
         int[] scoresSpecialB = {2,20,31};
 
-        System.out.println("AP_1.scoresSpecial: " + scoresSpecial.scoresSpecial(scoresSpecialA,scoresSpecialB));
+        System.out.println("scoresSpecial: " + scoresSpecial.scoresSpecial(scoresSpecialA,scoresSpecialB));
 
-        /// AP_1.sumHeights ///
-        System.out.println("\n/// AP_1.sumHeights ///");
+        /// sumHeights ///
+        System.out.println("\n/// sumHeights ///");
 
         int[] sumHeightsInt = {5,3,6,7,2};
         int sumHeightsStart = 0;
         int sumHeightsEnd = 1;
 
-        System.out.println("AP_1.sumHeights: " + sumHeights.sumHeights(sumHeightsInt,sumHeightsStart,sumHeightsEnd));
+        System.out.println("sumHeights: " + sumHeights.sumHeights(sumHeightsInt,sumHeightsStart,sumHeightsEnd));
 
         /// sumHeights2 ///
         System.out.println("\n/// sumHeights2 ///");
