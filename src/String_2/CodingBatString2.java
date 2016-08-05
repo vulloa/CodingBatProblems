@@ -94,34 +94,74 @@ public class CodingBatString2 {
         System.out.println("mixString: " + mixString.mixString(mixStringA[0],mixStringA[1]));
 
 
-        ///  ///
+        /// repeatEnd ///
         System.out.println("\n/// repeatEnd ///");
 
+        String repeatEndString = "Hello";
+        int repeatEndInt = 3;
+        //int repeatEndInt = 2;
+        //int repeatEndInt = 1;
 
-        ///  ///
+        System.out.println("repeatEnd: " + repeatEnd.repeatEnd(repeatEndString,repeatEndInt));
+
+        /// repeatFront ///
         System.out.println("\n/// repeatFront ///");
 
+        String repeatFrontString = "Chocolate";
+        //String repeatFrontString = "Ice Cream";
+        int repeatFrontInt = 4;
+        //int repeatFrontInt = 3;
+        //int repeatFrontInt = 2;
 
-        ///  ///
+        System.out.println("repeatFront:" + repeatFront.repeatFront(repeatFrontString,repeatFrontInt));
+
+        /// repeatSeperator ///
         System.out.println("\n/// repeatSeperator ///");
 
+        String repeatSeperatorString[] = {"Word","X"};
+        //String repeatSeperatorString[] = {"This","And"};
+        int repeatSeperatorInt = 3;
+        //int repeatSeperatorInt = 2;
+        //int repeatSeperatorInt = 1;
 
-        ///  ///
+        System.out.println("repeatSeperator: " + repeatSeperator.repeatSeperator(repeatSeperatorString[0],repeatSeperatorString[1],repeatSeperatorInt));
+
+        /// prefixAgain ///
         System.out.println("\n/// prefixAgain ///");
 
+        String prefixAgainString = "abXYabc";
+        int prefixAgainInt = 1;
+        //int prefixAgainInt = 2;
+        //int prefixAgainInt = 3;
 
-        ///  ///
+        System.out.println("prefixAgain: " + prefixAgain.prefixAgain(prefixAgainString,prefixAgainInt));
+
+        /// xyzMiddle ///
         System.out.println("\n/// xyzMiddle ///");
 
+        String xyzMiddleString = "AAxyzBB";
+        //String xyzMiddleString = "AxyzBB";
+        //String xyzMiddleString = "AxyzBBB";
 
-        ///  ///
+        System.out.println("xyzMiddle: " + xyzMiddle.xyzMiddle(xyzMiddleString));
+
+        /// getSandwich ///
         System.out.println("\n/// getSandwich ///");
 
+        String getSandwichString = "breadjambread";
+        //String getSandwichString = "xxbreadjambreadyy";
+        //String getSandwichString = "xxbreadyy";
 
-        ///  ///
+        System.out.println("getSandwich: " + getSandwich.getSandwich(getSandwichString));
+
+        /// sameStarChar ///
         System.out.println("\n/// sameStarChar ///");
 
+        String sameStarCharString = "xy*yzz";
+        //String sameStarCharString = "xy*zzz";
+        //String sameStarCharString = "*xa*az";
 
+        System.out.println("sameStarChar: " + sameStarChar.sameStarChar(sameStarCharString));
 
     }
 
