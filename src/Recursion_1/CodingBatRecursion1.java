@@ -132,30 +132,58 @@ public class CodingBatRecursion1 {
         printUtility.printString(changeXYString);
         System.out.println("changeXY: " + changeXY.changeXY(changeXYString));
 
+        /// changePi ///
+        System.out.println("\n/// changePi ///");
+
+        String changePiString = "xpix";
+        //String changePiString = "pipi";
+        //String changePiString = "pip";
+
+        printUtility.printString(changePiString);
+        System.out.println("changePi: " + changePi.changePi(changePiString));
+
+        /// noX ///
+        System.out.println("\n/// noX ///");
+
+        String noXString = "xaxb";
+        //String noXString = "abc";
+        //String noXString = "";
+
+        printUtility.printString(noXString);
+        System.out.println("noX: " + noX.noX(noXString));
+
         ///  ///
-        System.out.println("\n///  ///");
+        System.out.println("\n/// array6 ///");
 
-        System.out.println("");
+        int array6Ints[] = {1,6,4};
+        //int array6Ints[] = {1,4};
+        //int array6Ints[] = {6};
+        int array6index = 0;
 
-        ///  ///
-        System.out.println("\n///  ///");
-
-        System.out.println("");
-
-        ///  ///
-        System.out.println("\n///  ///");
-
-        System.out.println("");
+        printUtility.printIntArray(array6Ints);
+        System.out.println("array6: " + array6.array6(array6Ints,array6index));
 
         ///  ///
-        System.out.println("\n///  ///");
+        System.out.println("\n/// array11 ///");
 
-        System.out.println("");
+        int array11Ints[] = {1,2,11};
+        //int array11Ints[] = {11,11};
+        //int array11Ints[] = {1,2,3,4};
+        int array11index = 0;
+
+        printUtility.printIntArray(array11Ints);
+        System.out.println("array11: " + array11.array11(array11Ints,array11index));
 
         ///  ///
-        System.out.println("\n///  ///");
+        System.out.println("\n/// array220 ///");
 
-        System.out.println("");
+        int array220Ints[] = {1,2,20};
+        //int array220Ints[] = {3,30};
+        //int array220Ints[] = {3};
+        int array220Index = 0;
+
+        printUtility.printIntArray(array220Ints);
+        System.out.println("array220: " + array220.array220(array220Ints,array220Index));
 
         ///  ///
         System.out.println("\n///  ///");

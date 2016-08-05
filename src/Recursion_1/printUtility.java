@@ -19,4 +19,14 @@ public class printUtility {
     {
         System.out.print("\n" + i + "\n");
     }
+
+    public static void printIntArray(int ints[])
+    {
+        System.out.println();
+
+        for(int i = 0; i < ints.length; i++)
+            System.out.print(ints[i] + " ");
+
+        System.out.println("\n");
+    }
 }
