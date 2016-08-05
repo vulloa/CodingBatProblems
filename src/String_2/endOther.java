@@ -10,8 +10,8 @@ public class endOther {
         a = a.toLowerCase();
         b = b.toLowerCase();
 
-        printUtility.printString(a);
-        printUtility.printString(b);
+        printUtility.printStringNoNewLine("\n" + a);
+        printUtility.printStringNoNewLine(b + "\n");
 
         if(a.length() > b.length()) {
             if (a.substring(a.length() - b.length()).equals(b))

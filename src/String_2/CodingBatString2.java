@@ -64,16 +64,34 @@ public class CodingBatString2 {
 
         System.out.println("xyzThere: " + xyzThere.xyzThere(xyzThereString));
 
-        ///  ///
+        /// bobThere ///
         System.out.println("\n/// bobThere ///");
 
+        String bobThereString = "abcbob";
+        //String bobThereString = "b9b";
+        //String bobThereString = "bac";
 
-        ///  ///
+        System.out.println("bobThere: " + bobThere.bobThere(bobThereString));
+
+
+        /// xyBalance ///
         System.out.println("\n/// xyBalance ///");
 
+        //String xyBalanceString = "aaxbby";
+        //String xyBalanceString = "aaxbb";
+        //String xyBalanceString = "yaaxbb";
+        String xyBalanceString = "aaxbby";
 
-        ///  ///
+        System.out.println("xyBalance: " + xyBalance.xyBalance(xyBalanceString));
+
+        /// mixString ///
         System.out.println("\n/// mixString ///");
+
+        String mixStringA[] = {"abc","xyz"};
+        //String mixStringA[] = {"Hi","There"};
+        //String mixStringA[] = {"xxxx","There"};
+
+        System.out.println("mixString: " + mixString.mixString(mixStringA[0],mixStringA[1]));
 
 
         ///  ///

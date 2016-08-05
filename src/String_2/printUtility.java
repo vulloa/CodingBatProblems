@@ -10,4 +10,8 @@ public class printUtility {
         System.out.print("\n" + s + "\n\n");
     }
 
+    public static void printStringNoNewLine(String s)
+    {
+        System.out.print(s + "\n");
+    }
 }
