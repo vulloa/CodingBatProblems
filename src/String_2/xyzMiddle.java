@@ -7,6 +7,8 @@ public class xyzMiddle {
 
     public static boolean xyzMiddle(String str)
     {
+        printUtility.printString(str);
+
         if(str.length() < 3)
             return false;
 

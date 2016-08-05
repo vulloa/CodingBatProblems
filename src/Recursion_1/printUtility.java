@@ -1,4 +1,4 @@
-package String_2;
+package Recursion_1;
 
 /**
  * Created by UlloaV on 8/4/2016.

@@ -10,6 +10,8 @@ public class getSandwich {
         int first = -1;
         int last = -1;
 
+        printUtility.printString(str);
+
         for(int i = 0; i < str.length() - 5; i++)
         {
             if(str.substring(i,i+5).equals("bread"))

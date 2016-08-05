@@ -7,6 +7,9 @@ public class prefixAgain {
 
     public static boolean prefixAgain(String str, int n)
     {
+        printUtility.printString(str);
+        printUtility.printInt(n);
+
         String p = str.substring(0,n);
 
         for(int i = n; i <= str.length() - n; i++)

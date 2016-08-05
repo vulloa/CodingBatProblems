@@ -7,6 +7,10 @@ public class repeatSeperator {
 
     public static String repeatSeperator(String word, String sep, int count)
     {
+        printUtility.printStringNoNewLine(word);
+        printUtility.printStringNoNewLine(sep);
+        printUtility.printInt(count);
+
         StringBuffer s = new StringBuffer();
 
         if(count == 0)

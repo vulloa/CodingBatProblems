@@ -7,6 +7,9 @@ public class repeatFront {
 
     public static String repeatFront(String str, int n)
     {
+        printUtility.printString(str);
+        printUtility.printInt(n);
+
         StringBuffer s = new StringBuffer();
 
         for(int i = 0; i < n; i++)

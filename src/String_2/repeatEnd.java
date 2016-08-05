@@ -7,6 +7,9 @@ public class repeatEnd {
 
     public static String repeatEnd(String str, int n)
     {
+        printUtility.printString(str);
+        printUtility.printInt(n);
+
         String s = "";
 
         for(int i = 0; i < n; i++)

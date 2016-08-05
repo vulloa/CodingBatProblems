@@ -9,7 +9,7 @@ public class CodingBatProblems {
 
     public static void main(String[] args)
     {
-        /*
+/*
         CodingBatAP1 answers_one = new CodingBatAP1();
 
         System.out.print("\n\n");
@@ -17,8 +17,7 @@ public class CodingBatProblems {
         CodingBatString2 answers_two = new CodingBatString2();
 
         System.out.print("\n\n");
-        */
-
+*/
         CodingBatRecursion1 answers_four = new CodingBatRecursion1();
 
         System.out.print("\n\n");
