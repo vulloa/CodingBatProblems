@@ -13,21 +13,33 @@ public class CodingBatRecursion1 {
         /// factorial ///
         System.out.println("\n/// factorial ///");
 
-        int factorialInt = 1;
+        //int factorialInt = 1;
         //int factorialInt = 2;
-        //int factorialInt = 6;
+        int factorialInt = 6;
 
+        printUtility.printInt(factorialInt);
         System.out.println("factorial: " + factorial.factorial(factorialInt));
 
-        ///  ///
-        System.out.println("\n///  ///");
+        /// bunnyEars ///
+        System.out.println("\n/// bunnyEars ///");
 
-        System.out.println("");
+        //int bunnyEarsInt = 0;
+        //int bunnyEarsInt = 2;
+        int bunnyEarsInt = 4;
 
-        ///  ///
-        System.out.println("\n///  ///");
+        printUtility.printInt(bunnyEarsInt);
+        System.out.println("bunnyEars: " + bunnyEars.bunnyEars(bunnyEarsInt));
 
-        System.out.println("");
+        /// fibonacci ///
+        System.out.println("\n/// fibonacci ///");
+
+        //int fibonacciInt = 0;
+        //int fibonacciInt = 1;
+        //int fibonacciInt = 2;
+        int fibonacciInt = 5;
+
+        printUtility.printInt(fibonacciInt);
+        System.out.println("fibonacci: " + fibonacci.fibonacci(fibonacciInt));
 
         ///  ///
         System.out.println("\n///  ///");

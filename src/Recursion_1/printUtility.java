@@ -17,6 +17,6 @@ public class printUtility {
 
     public static void printInt(int i)
     {
-        System.out.print("\n" + i + "\n\n");
+        System.out.print("\n" + i + "\n");
     }
 }
