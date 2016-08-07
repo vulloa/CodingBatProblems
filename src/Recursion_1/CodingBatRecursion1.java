@@ -213,30 +213,50 @@ public class CodingBatRecursion1 {
 
         System.out.println("endX: " + endX.endX(endXString));
 
-        ///  ///
-        System.out.println("\n///  ///");
+        /// countPairs ///
+        System.out.println("\n/// countPairs ///");
 
-        System.out.println("");
+        //String countPairsString = "axa";
+        String countPairsString = "axax";
+        //String countPairsString = "axbx";
 
-        ///  ///
-        System.out.println("\n///  ///");
+        System.out.println("countPairs: " + countPairs.countPairs(countPairsString));
 
-        System.out.println("");
+        /// countAbc ///
+        System.out.println("\n/// countAbc ///");
 
-        ///  ///
-        System.out.println("\n///  ///");
+        //String countAbcString = "abc";
+        String countAbcString = "abcxxabc";
+        //String countAbcString = "abaxxaba";
 
-        System.out.println("");
+        System.out.println("countAbc: " + countAbc.countAbc(countAbcString));
 
-        ///  ///
-        System.out.println("\n///  ///");
+        /// count11 ///
+        System.out.println("\n/// count11 ///");
 
-        System.out.println("");
+        String count11String = "11abc11";
+        //String count11String = "abc11x11x11";
+        //String count11String = "111";
 
-        ///  ///
-        System.out.println("\n///  ///");
+        System.out.println("count11: " + count11.count11(count11String));
 
-        System.out.println("");
+        /// stringClean ///
+        System.out.println("\n/// stringClean ///");
+
+        String stringCleanString = "yyzzza";
+        //String stringCleanString = "abbbcdd";
+        //String stringCleanString = "Hello";
+
+        System.out.println("stringClean: " + stringClean.stringClean(stringCleanString));
+
+        /// countHi2 ///
+        System.out.println("\n/// countHi2 ///");
+
+        String countHi2String = "ahixhi";
+        //String countHi2String = "ahibhi";
+        //String countHi2String = "xhixhi";
+
+        System.out.println("countHi2: " + countHi.countHi(countHi2String));
 
     }
 

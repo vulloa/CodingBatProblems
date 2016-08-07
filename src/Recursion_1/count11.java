@@ -1,0 +1,19 @@
+package Recursion_1;
+
+/**
+ * Created by vanessaulloa on 8/7/16.
+ */
+public class count11 {
+
+    public static int count11(String str)
+    {
+        if(str.length() <= 1)
+            return 0;
+
+        if(str.substring(0,2).equals("11"))
+            return 1 + count11(str.substring(2));
+
+        return count11(str.substring(1));
+    }
+
+}
