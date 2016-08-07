@@ -185,20 +185,33 @@ public class CodingBatRecursion1 {
         printUtility.printIntArray(array220Ints);
         System.out.println("array220: " + array220.array220(array220Ints,array220Index));
 
-        ///  ///
-        System.out.println("\n///  ///");
+        /// allStar ///
+        System.out.println("\n/// allStar ///");
 
-        System.out.println("");
+        String allStarString = "hello";
+        //String allStarString = "abc";
+        //String allStarString = "ab";
 
-        ///  ///
-        System.out.println("\n///  ///");
+        printUtility.printString(allStarString);
+        System.out.println("allStar: " + allStar.allStar(allStarString));
 
-        System.out.println("");
+        /// pairStar ///
+        System.out.println("\n/// pairStar ///");
 
-        ///  ///
-        System.out.println("\n///  ///");
+        String pairStarString = "hello";
+        //String pairStarString = "xxyy";
+        //String pairStarString = "aaaa";
 
-        System.out.println("");
+        System.out.println("pairStar: " + pairStar.pairStar(pairStarString));
+
+        /// endX ///
+        System.out.println("\n/// endX ///");
+
+        String endXString = "xxre";
+        //String endXString = "xxhixx";
+        //String endXString = "xhixhix";
+
+        System.out.println("endX: " + endX.endX(endXString));
 
         ///  ///
         System.out.println("\n///  ///");
